@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background: #007bff; /* Primary color for header */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center; /* Centered text */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Font size for heading */
+}
+
+/* Navigation Styles */
+nav {
+    margin: 10px 0; /* Space above and below navigation */
+}
+
+nav a {
+    color: #fff; /* White links */
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Padding for main content area */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+h2 {
+    color: #007bff; /* Color for section headings */
+    margin-top: 0; /* Remove margin at the top */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    background-color: white; /* White background for list items */
+    margin: 5px 0; /* Margin between list items */
+    padding: 10px; /* Padding inside list items */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* Link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Centered text */
+    padding: 20px; /* Padding for footer */
+    background: #333; /* Dark footer background */
+    color: #fff; /* White text color */
+    position: relative; /* Position for layout */
+    bottom: 0;
+    width: 100%; /* Full width */
+}
